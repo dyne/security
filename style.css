@@ -1,0 +1,36 @@
+body {
+    font-family: Yantramanav;
+}
+
+#scroll {
+    animation: animateHeight 1.4s linear infinite
+}
+
+#circle--shape {
+    animation: animateShape 1.6s ease-in-out infinite
+}
+
+@keyframes animateShape {
+    50% {
+        cy: 100;
+        opacity: .1
+    }
+}
+
+@keyframes animateHeight {
+    70% {
+        height: 105px
+    }
+}
+
+/* Chrome, Safari and Opera */
+.no-scrollbar::-webkit-scrollbar {
+    display: none;
+}
+
+.no-scrollbar {
+    -ms-overflow-style: none;
+    /* IE and Edge */
+    scrollbar-width: none;
+    /* Firefox */
+}

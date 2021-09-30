@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Dyne.org Security Team</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Yantramanav:wght@100;400;700;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./tailwind.css" />
+    <link rel="stylesheet" href="./style.css" />
+
+</head>
+
+<body class="font-thin bg-purple-50 text-purple-900 text-2xl">
+    <div class="flex flex-col h-screen">
+        <header>
+            <div class="border-b max-w-3xl mx-auto py-12 lg:flex lg:items-center lg:justify-between">
+                <h2 class="tracking-tight text-gray-900">
+                    <span
+                        class="block uppercase font-black text-transparent text-3xl bg-clip-text bg-gradient-to-r from-purple-300 to-pink-600"
+                        id="title">WELCOME</span>
+                </h2>
+                <div class="mt-8 flex lg:mt-0 lg:flex-shrink-0">
+                    <h1
+                        class="block uppercase font-black text-transparent text-3xl bg-clip-text bg-gradient-to-r from-pink-600 to-purple-300">
+                        🛡.DYNE.ORG</h1>
+                </div>
+            </div>
+        </header>
+        <main class="flex-1 overflow-y-auto max-w-3xl mx-auto py-12 no-scrollbar gap-44 flex flex-col">
+            <div class="step min-h-screen flex gap-12">
+                <h2 class="w-1/5 uppercase pb-10">sec bounty program</h2>
+                <div>
+                    <p class="pb-6">
+                        No technology is perfect, and at Dyne.org we take privacy and security very seriously. As such,
+                        we encourage everyone to participate in our security bounty program, which incentivize
+                        researchers and hackers alike to responsibly find, disclose, and help us resolve security
+                        vulnerabilities.</p>
+                    <p>
+                        If you believe you've found a security issue in our product or service, we encourage you to
+                        notify us. <strong>We will reward bounties for ethically reported bugs.</strong>
+                        Please review the following program rules before you report a vulnerability.
+                        <svg width="40" height="60" viewBox="0 0 50 130" class="mx-auto mt-20">
+                            <rect id="scroll" x="0" y="5" rx="25" ry="25" width="50" height="120" stroke="gray"
+                                fill="transparent" stroke-width="4"></rect>
+                            <circle id="circle--shape" cx="25" cy="32" r="8" fill="purple"></circle>
+                        </svg>
+                    </p>
+                </div>
+            </div>
+            <div class="step flex gap-12">
+                <h2 class="w-1/5 uppercase pb-10">policy</h2>
+                <p class="flex-auto">
+                    Keeping user information safe and secure is a top priority and a core principle at Dyne.
+                    We welcome the contribution of external security researchers and look forward to awarding them for
+                    their invaluable contribution to the security of all Dyne employees and users.
+                </p>
+            </div>
+            <div class="step flex gap-12">
+                <h2 class="w-1/5 uppercase pb-10">rewards</h2>
+                Dyne provides rewards to vulnerability reporters at its discretion (see properly “Submission”). Rewards
+                may vary depending upon the severity and the impact of the vulnerability reported, alongside the quality
+                of the report. Keep in mind that this is not a contest or competition.
+            </div>
+
+            <div class="step flex gap-12">
+                <h2 class="uppercase pb-10">Eligibility and Responsible Disclosure</h2>
+                <div>
+                    To promote the discovery and reporting of vulnerabilities and increase user safety, we ask that you:
+
+                    <ul class="list-disc pl-6">
+                        <li>
+                            Act in good faith to avoid privacy violations, destruction of data, and interruption or
+                            degradation
+                            of
+                            our services
+                            (including denial of service)
+                        </li>
+
+                        <li>
+                            Do not access or modify our data or our users’ data, without the explicit permission of the
+                            owner.
+                            Only
+                            interact with
+                            your own accounts or test accounts for security research purposes;
+                        </li>
+
+                        <li>
+                            Contact us immediately if you inadvertently encounter user data. Do not view, alter, save,
+                            store,
+                            transfer, or otherwise
+                            access the data, and immediately purge any local information upon reporting the
+                            vulnerability to
+                            Dyne;
+                        </li>
+
+                        <li>
+                            Please be respectful of our existing applications. Spamming forms through automated
+                            vulnerability
+                            scanners will not result in any bounty or award since those are explicitly out of scope;
+                        </li>
+
+                        <li>Share the security issue with us in detail;</li>
+
+                        <li>Give us a reasonable time to respond to the issue;</li>
+
+                        <li>Comply with all applicable laws.</li>
+
+                        <li>We only reward the first reporter of a vulnerability.</li>
+                    </ul>
+
+                    <p>
+                        Public disclosure of the vulnerability or disclosure to third parties is not permitted and will
+                        cancel a
+                        pending reward.
+                        We reserve the right to disqualify individuals from the program for disrespectful or disruptive
+                        behavior.
+                    </p>
+
+                    <p>
+                        We will not negotiate in response to duress or threats (e.g., we will not negotiate the payout
+                        amount
+                        under threat of
+                        withholding the vulnerability or threat of releasing the vulnerability or any exposed data to
+                        the
+                        public).
+                    </p>
+
+                    <p>
+                        Frequent sending of messages to <a href="mailto:security@dyne.org">security@dyne.org</a> for the
+                        same issue, just for the purposes of checking
+                        on the status of
+                        a submission, will disqualify a submission.
+                    </p>
+                </div>
+            </div>
+            <div class="step min-h-screen mt-20" data-title="Out-of-scope Vulnerabilities">
+                <h2 class="uppercase pb-10">Out-of-scope Vulnerabilities</h2>
+                <ul class="list-disc pl-6">
+                    <li>
+                        <p>Our policies on the presence/absence of SPF/DMARC records.</p>
+                    </li>
+                    <li>
+                        <p>Password, email, and account policies, such as email id verification, reset link expiration,
+                            password complexity.</p>
+                    </li>
+                    <li>
+                        <p>Lack of CSRF tokens (unless there is evidence of actual, sensitive user action not protected
+                            by a token).</p>
+                    </li>
+                    <li>
+                        <p>Attacks requiring physical access to a user’s device.</p>
+                    </li>
+                    <li>
+                        <p>Missing security headers which do not lead directly to a vulnerability.</p>
+                    </li>
+                    <li>
+                        <p>Missing best practices (we require evidence of a security vulnerability).</p>
+                    </li>
+                    <li>
+                        <p>Self-XSS (we require evidence on how the XSS can be used in an attack).</p>
+                    </li>
+                    <li>
+                        <p>Host header injections unless you can show how they can lead to stealing data.</p>
+                    </li>
+                    <li>
+                        <p>Use of a known-vulnerable library (without evidence of exploitability).</p>
+                    </li>
+                    <li>
+                        <p>Issues relating to buggy non-Dyne software.<br></p>
+                    </li>
+                    <li>
+                        <p>Reports from automated tools or scans.</p>
+                    </li>
+                    <li>
+                        <p>Reports of spam (i.e., any report involving the ability to send emails without rate-limits).
+                        </p>
+                    </li>
+                    <li>
+                        <p>Attacks that require the attacker app to have the permission to overlay on top of our app
+                            (e.g., tapjacking).</p>
+                    </li>
+                    <li>
+                        <p>Vulnerabilities affecting users of outdated browsers or platforms.</p>
+                    </li>
+                    <li>
+                        <p>Social engineering of Dyne employees or contractors.<br></p>
+                    </li>
+                    <li>
+                        <p>Any physical attempts against Dyne property.<br></p>
+                    </li>
+                    <li>
+                        <p>Presence of autocomplete attribute on web forms.</p>
+                    </li>
+                    <li>
+                        <p>Missing cookie flags on non-sensitive cookies.</p>
+                    </li>
+                    <li>
+                        <p>Reports of insecure SSL/TLS ciphers (unless you have a working proof of concept and not just
+                            a report from a scanner).</p>
+                    </li>
+                    <li>
+                        <p>Any access to data where the targeted user needs to be operating a rooted mobile device.</p>
+                    </li>
+                    <li>
+                        <p>Content spoofing vulnerabilities (where you can only inject text or an image into a page) are
+                            out of scope without evidence of exploitability.</p>
+                    </li>
+                    <li>
+                        <p>IP/Port Scanning via LogMeOnce services unless you are able to hit private IPs or Dyne
+                            servers.<br></p>
+                    </li>
+                    <li>
+                        <p>Mobile app.</p>
+                    </li>
+                    <li>
+                        <p>Hyperlink injection or any link injection in emails we send.</p>
+                    </li>
+                    <li>
+                        <p>Creating multiple accounts using the same email is also out of scope.</p>
+                    </li>
+                    <li>
+                        <p>Being able to upload files with the wrong extension in chooser.</p>
+                    </li>
+                </ul>
+            </div>
+        </main>
+        <footer class="py-5 text-center text-sm">
+            <span>GPG: </span>
+            <a href="./security@dyne.org.asc" class="text-pink-400">
+                <code class="text-xs">
+                    AC2B 164C 7A1C 2C9A 45C9 53E9 26CB 20D8 10BF 3BC6
+                </code>
+            </a>
+            <p class="mb-2">
+                Copyleft ©2000-2021
+                Dyne.org foundation
+                Haparandadam 7-A1
+                1013AK Amsterdam
+            </p>
+        </footer>
+    </div>
+
+    <script src="./main.js"></script>
+    <script>
+        document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] +
+            ':35729/livereload.js?snipver=1"></' + 'script>')
+    </script>
+</body>
+
+</html>
